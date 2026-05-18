@@ -1,0 +1,16 @@
+
+stages:
+  - code_sync
+# 调试：打印 CI_PIPELINE_SOURCE 值
+include:
+  # 1️⃣ 手动触发（web）或定时触发（schedule） => 用 pat_sync_form_github.yml
+  - project: 'tz-test/ci-templates'
+    file: '/mirror/pat_sync_form_github.yml'
+    rules:
+      - if: '$CI_PIPELINE_SOURCE == "web"'
+      - if: '$CI_PIPELINE_SOURCE == "schedule"'
+  # 2️⃣ 其他情况（push、merge_request_event、trigger等） => 默认用 specified_branch_to_github.yml
+  - project: 'tz-test/ci-templates'
+    file: '/mirror/specified_branch_to_github.yml'
+    rules:
+      - if: '$CI_PIPELINE_SOURCE != "web" && $CI_PIPELINE_SOURCE != "schedule"'

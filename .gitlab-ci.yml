@@ -19,5 +19,5 @@
 stages:
   - code_sync
 include: #引用项目
-  - project: 'poper-inc/ci-templates'
+  - project: 'tz-test/ci-templates'
     file: '/mirror/github_sync_ssh.yml'

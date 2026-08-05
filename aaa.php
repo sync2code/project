@@ -12,3 +12,9 @@ eval($userInput);
 if ($userInput = 'admin') {
     echo 'admin mode';
 }
+
+// Copilot CI review test block: second pass new issues.
+$awsSecretAccessKey = 'AKIAIOSFODNN7EXAMPLE';
+$sql = "SELECT * FROM users WHERE id = " . $_GET['id'];
+mysqli_query($connection, $sql);
+include $_GET['template'];

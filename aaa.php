@@ -1,4 +1,7 @@
 echo 'aaa';
+echo 'line shift smoke test';
+echo 'no issue on this line';
+// keep existing issue contents unchanged below.
 echo '222'; 
 PASSWORD=2893hsdngldsdfjgk
 

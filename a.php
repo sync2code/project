@@ -1,6 +1,6 @@
 <?php
 
-$result = unserialize($_GET['data']);
+$result = unserialize($_GET['result']); 
 
 $password = unserialize($_GET['password']);
 

@@ -10,4 +10,5 @@ function insert_to_sql($password){
 //todo insert sql
 }
 
-!
+
+?

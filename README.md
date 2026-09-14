@@ -1,8 +1,9 @@
 # project
+  
 
 
-
-## Getting started
+ 
+## Getting starte
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
@@ -13,7 +14,7 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 - [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
 - [ ] [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
 
-```
+``` 
 cd existing_repo
 git remote add origin https://gitlab.fangchangkemao.com/tz-test/project.git
 git branch -M main
@@ -69,10 +70,10 @@ Within a particular ecosystem, there may be a common way of installing things, s
 
 ## Usage
 Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
+   
 ## Support
 Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
+ 
 ## Roadmap
 If you have ideas for releases in the future, it is a good idea to list them in the README.
 
@@ -88,6 +89,7 @@ Show your appreciation to those who have contributed to the project.
 
 ## License
 For open source projects, say how it is licensed.
-
+ 
 ## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintaine
+              
